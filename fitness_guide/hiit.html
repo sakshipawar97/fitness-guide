@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIIT & Cardio Workout</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS File -->
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Workout Grid Layout */
+        .workout-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* Card Styling */
+        .workout-box {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            text-align: left;
+        }
+
+        /* Hover Effect */
+        .workout-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Workout GIFs */
+        .tenor-gif-embed {
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        /* Back Button Styling */
+        .back-button {
+            background: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+
+        .back-button:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Center Back Button */
+        .button-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- HIIT & Cardio Workout Section -->
+<section class="workout-plan">
+    <h2>🔥 HIIT & Cardio Workout</h2>
+    <p><strong>Goal:</strong> Burn fat and improve endurance.</p>
+    <p><strong>Duration:</strong> 20 minutes</p>
+    <p><strong>Frequency:</strong> 4 times a week</p>
+
+    <div class="workout-grid">
+        <!-- Jump Rope Card -->
+        <div class="workout-box">
+            <div class="tenor-gif-embed" data-postid="8090162829767868282" data-share-method="host" data-aspect-ratio="1" data-width="100%"></div>
+            <h3>Jump Rope</h3>
+            <p>5 minutes continuous</p>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>Hold the jump rope handles and rotate the rope using your wrists.</li>
+                <li>Jump slightly off the ground as the rope passes under your feet.</li>
+                <li>Maintain a steady pace and keep your knees slightly bent.</li>
+            </ul>
+        </div>
+
+        <!-- Burpees Card -->
+        <div class="workout-box">
+            <div class="tenor-gif-embed" data-postid="10862744" data-share-method="host" data-aspect-ratio="1.50943" data-width="100%"></div>
+            <h3>Burpees</h3>
+            <p>3 sets of 15 reps</p>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>Start in a standing position.</li>
+                <li>Drop into a squat and place your hands on the floor.</li>
+                <li>Kick your legs back into a push-up position.</li>
+                <li>Jump back to a squat and explode upwards.</li>
+            </ul>
+        </div>
+
+        <!-- Mountain Climbers Card -->
+        <div class="workout-box">
+            <div class="tenor-gif-embed" data-postid="16799546" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"></div>
+            <h3>Mountain Climbers</h3>
+            <p>3 sets of 30 seconds</p>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>Get into a push-up position with your hands directly under your shoulders.</li>
+                <li>Quickly drive your knees toward your chest one at a time.</li>
+                <li>Maintain a fast pace while keeping your core tight.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Back Button -->
+<div class="button-container">
+    <button class="back-button" onclick="history.back()">⬅️ Back</button>
+</div>
+<!-- Load Tenor GIFs -->
+<script async src="https://tenor.com/embed.js"></script>
+
+</body>
+</html>
